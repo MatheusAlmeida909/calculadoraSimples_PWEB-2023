@@ -30,9 +30,7 @@ function calculate(idCalc) {
 
         case "square":
             result = num1 * num1;
-            extraResult = num2 * num2;
-            document.getElementById("answer").value = extraResult;
-
+            
             break;
     
         default:
